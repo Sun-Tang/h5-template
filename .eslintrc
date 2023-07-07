@@ -1,0 +1,15 @@
+{
+  // 使用规则库
+  "extends": "@mistjs/eslint-config-vue-jsx",
+  // 自定义自己的规则
+  "rules": {
+    "no-console": "off",
+    "no-extra-semi": "error",
+    "vue/component-tags-order": [
+      "error",
+      {
+        "order": [["script", "template"], "style"]
+      }
+    ]
+  }
+}
